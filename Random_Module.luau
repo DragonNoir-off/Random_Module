@@ -46,7 +46,7 @@ function module.normalise_table(data_table)
 	return arrays_data
 end
 
-function module.Spin(spin_table : SharedTable, luck)
+function module.Spin(spin_table, luck : number)
 	
 	-- spin data
 	local array_data = module.normalise_table(spin_table)
